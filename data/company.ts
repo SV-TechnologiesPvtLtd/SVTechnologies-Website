@@ -5,7 +5,7 @@ export const companyConfig = {
   heroHeadline: "We build digital products that",
   heroItalic: "actually work.",
   description:
-    "SV Technologies is a Nepal-born software studio crafting websites, mobile apps, POS systems, e-commerce platforms, and custom software — from our office in Dillibazar to clients everywhere.",
+    "SV Technologies is a Nepal-based software studio crafting websites, mobile apps, POS systems, e-commerce platforms, and custom software — from our office in Dillibazar to clients everywhere.",
   establishedYear: 2021,
   contact: {
     email: "info@svtech.com.np",
@@ -14,8 +14,8 @@ export const companyConfig = {
     mobilePhone: "+977-9801234567",
     address: "Dillibazar, Kathmandu 44600, Bagmati, Nepal",
     hours: "Mon – Fri · 9:00 – 6:00 | Sat-Sun · Closed",
-    mapQueryUrl: "https://maps.google.com/?q=Dillibazar,+Kathmandu,+Nepal",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Dillibazar%2C%20Kathmandu%2C%20Nepal&t=&z=16&ie=UTF8&iwloc=&output=embed",
+    mapQueryUrl: "https://www.google.com/maps/place/SV+Technologies+Pvt+Ltd/@27.6976803,85.199379,12z/data=!4m10!1m2!2m1!1sSV+Technologies+Pvt+Ltd!3m6!1s0x39eb192d0e99083b:0x85beb64de143e174!8m2!3d27.7063589!4d85.3244574!15sChdTViBUZWNobm9sb2dpZXMgUHZ0IEx0ZJIBEHNvZnR3YXJlX2NvbXBhbnngAQA!16s%2Fg%2F11zy8_s6vp",  
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.285816921203!2d85.3218824761895!3d27.706363625442533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb192d0e99083b%3A0x85beb64de143e174!2sSV%20Technologies%20Pvt%20Ltd!5e0!3m2!1sen!2snp!4v1710000000000!5m2!1sen!2snp",
   },
   social: {
     facebook: "#",
@@ -37,10 +37,10 @@ export const companyConfig = {
     { name: "Shraddha Dongol", role: "Software Developer", initials: "SD", gradient: "from-[#0943c2] to-[#8f7fd4]" },
   ],
   gallery: [
-    { label: "Office", title: "Our Dillibazar workspace", style: "from-[#0943c2] to-[#5fd6a8]" },
-    { label: "Community", title: "Client meetup", style: "from-[#0943c2] to-[#5fd6a1]" },
-    { label: "Learning", title: "Tech workshop", style: "from-[#0943c2] to-[#8f7fd4]" },
-    { label: "Culture", title: "Team celebration", style: "from-[#0943c2] to-[#d96a7a]" },
-    { label: "Outing", title: "Pokhara retreat", style: "from-[#0943c2] to-[#4c4c45]" },
+    { label: "Office", title: "Our Dillibazar workspace", style: "from-[#0943c2] to-[#5fd6a8]", imgUrl: "/office.png" },
+    // { label: "Community", title: "Client meetup", style: "from-[#0943c2] to-[#5fd6a1]", imgUrl: "/celebration.jpeg" },
+    { label: "Learning", title: "Tech workshop", style: "from-[#0943c2] to-[#8f7fd4]", imgUrl: "/team.jpg" },
+    { label: "Culture", title: "Team celebration", style: "from-[#0943c2] to-[#d96a7a]", imgUrl: "/celebration.jpeg" },
+    { label: "Outing", title: "Pokhara retreat", style: "from-[#0943c2] to-[#4c4c45]", imgUrl: "/images.jpeg" },
   ],
 };

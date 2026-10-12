@@ -14,12 +14,10 @@ export const ContactSection: React.FC = () => {
   return (
     <section className="bg-[#1d1d1a] text-[#f4f1ea] py-28" id="contact">
       <div className="w-[min(1240px,92%)] mx-auto">
-        <span className="eyebrow text-[#9a978d] before:bg-[#0943c2]">
-          Contact
-        </span>
+       
         
         <h2 className="display text-[clamp(2rem,5vw,4rem)] max-w-[15ch] text-white">
-          Let's build something <span className="serif-it text-[#0943c2]">great</span> together.
+          Let's build something <span className="serif-it text-secondary">great</span> together.
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-18 mt-16">

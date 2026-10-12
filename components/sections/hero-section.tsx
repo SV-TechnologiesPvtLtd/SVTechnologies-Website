@@ -159,7 +159,7 @@ export const HeroSection: React.FC = () => {
 
       {/* ---------- Marquee ---------- */}
       <div
-        className="relative z-10 mt-20 -rotate-[1.2deg] scale-[1.02] overflow-hidden bg-[#131311] py-4 text-[#f4f1ea] shadow-md"
+        className="relative z-100 my-20 -rotate-[1.2deg] scale-[1.02] overflow-hidden bg-[#131311] py-4 text-[#f4f1ea] shadow-md"
         aria-hidden="true"
       >
         <div className="animate-marquee flex gap-12 whitespace-nowrap font-heading text-base font-medium">

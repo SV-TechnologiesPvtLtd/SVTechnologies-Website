@@ -33,6 +33,7 @@ export const projectsList: Project[] = [
     title: "Nepali Coffee POS",
     subtitle: "Point-of-sale system",
     category: "Software",
+    imgUrl: "/projects/NepaliCoffeePOS.png"
   },
   {
     num: "04",

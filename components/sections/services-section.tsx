@@ -6,7 +6,7 @@ import { servicesList } from "@/data/services";
 
 export const ServicesSection: React.FC = () => {
   return (
-    <section id="services" className="py-28 bg-[#f4f1ea]">
+    <section id="services" className="py-8 z-9 bg-[#f4f1ea] sm:py-10">
       <div className="w-[min(1240px,92%)] mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1.6fr] gap-12 lg:gap-16">
         {/* Sticky Left Column */}
         <div className="lg:sticky lg:top-28 align-self-start">

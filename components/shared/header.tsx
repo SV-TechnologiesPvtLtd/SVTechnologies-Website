@@ -77,13 +77,13 @@ export const Header: React.FC<HeaderProps> = ({ onOpenModal }) => {
 
           {/* Right Action */}
           <div className="flex items-center gap-3">
-            <a
+            {/* <a
               href="#contact"
               onClick={onOpenModal}
               className="pill hidden sm:inline-block cursor-pointer"
             >
               Start a project ↗
-            </a>
+            </a> */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="md:hidden bg-transparent border-none text-2xl cursor-pointer text-[#131311] p-1"

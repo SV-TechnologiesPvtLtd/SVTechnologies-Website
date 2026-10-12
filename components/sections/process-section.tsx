@@ -67,7 +67,7 @@ const Node: React.FC<{ Icon: LucideIcon }> = ({ Icon }) => (
 
 export const ProcessSection: React.FC = () => {
   return (
-    <section id="impact" className="py-18 bg-[#f4f1ea]">
+    <section id="impact" className="py-20 bg-[#f4f1ea]">
       <div className="w-[min(1240px,92%)] mx-auto">
         <span className="eyebrow">From idea to launch</span>
 
