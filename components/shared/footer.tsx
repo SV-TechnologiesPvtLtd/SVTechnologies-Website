@@ -15,14 +15,18 @@ export const Footer: React.FC = () => {
               Sitemap
             </h5>
             <div className="flex flex-col space-y-2 text-sm">
-              <Link href="#services" className="hover:text-[#0943c2] transition-colors">
+              <Link href="/#services" className="hover:text-[#0943c2] transition-colors">
                 Services
               </Link>
-              <Link href="#work" className="hover:text-[#0943c2] transition-colors">
+              <Link href="/#work" className="hover:text-[#0943c2] transition-colors">
                 Work
               </Link>
-              <Link href="#gallery" className="hover:text-[#0943c2] transition-colors">
+              <Link href="/#gallery" className="hover:text-[#0943c2] transition-colors">
                 Gallery
+              </Link>
+              <Link href="/product" className="hover:text-[#0943c2] transition-colors flex items-center gap-1.5">
+                <span>Invoice Studio</span>
+                <span className="text-[10px] px-1 rounded bg-[#0943c2]/30 text-[#8fb2ff]">APP</span>
               </Link>
             </div>
           </div>
@@ -32,13 +36,10 @@ export const Footer: React.FC = () => {
               Company
             </h5>
             <div className="flex flex-col space-y-2 text-sm">
-              <Link href="#team" className="hover:text-[#0943c2] transition-colors">
+              <Link href="/#team" className="hover:text-[#0943c2] transition-colors">
                 Team
               </Link>
-              <Link href="#careers" className="hover:text-[#0943c2] transition-colors">
-                Careers
-              </Link>
-              <Link href="#contact" className="hover:text-[#0943c2] transition-colors">
+              <Link href="/#contact" className="hover:text-[#0943c2] transition-colors">
                 Contact
               </Link>
             </div>
@@ -49,16 +50,16 @@ export const Footer: React.FC = () => {
               Services
             </h5>
             <div className="flex flex-col space-y-2 text-sm">
-              <Link href="#services" className="hover:text-[#0943c2] transition-colors">
+              <Link href="/#services" className="hover:text-[#0943c2] transition-colors">
                 Web Development
               </Link>
-              <Link href="#services" className="hover:text-[#0943c2] transition-colors">
+              <Link href="/#services" className="hover:text-[#0943c2] transition-colors">
                 App Development
               </Link>
-              <Link href="#services" className="hover:text-[#0943c2] transition-colors">
+              <Link href="/#services" className="hover:text-[#0943c2] transition-colors">
                 POS Systems
               </Link>
-              <Link href="#services" className="hover:text-[#0943c2] transition-colors">
+              <Link href="/#services" className="hover:text-[#0943c2] transition-colors">
                 E-commerce
               </Link>
             </div>

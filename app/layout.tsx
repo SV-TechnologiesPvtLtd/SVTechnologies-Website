@@ -5,7 +5,7 @@ import { JsonLd } from "@/components/shared/json-ld";
 export const metadata: Metadata = {
   title: "SV Technologies — Based in Nepal. Building for the World.",
   description:
-    "SV Technologies is software company based in Dillibazar, Kathmandu. We design and build websites, mobile apps, POS systems, e-commerce stores, and custom software.",
+    "SV Technologies is a software company based in Dillibazar, Kathmandu. We design and build websites, mobile apps, POS systems, e-commerce stores, and custom software.",
   keywords: [
     "SV Technologies",
     "SV Technologies Nepal",
@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     "Mobile Apps Nepal",
     "POS Systems Nepal",
     "Software Company Kathmandu",
+    "Invoice Studio",
   ],
   authors: [{ name: "SV Technologies Pvt. Ltd." }],
   creator: "SV Technologies Pvt. Ltd.",

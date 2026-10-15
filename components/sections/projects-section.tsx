@@ -123,7 +123,14 @@ export const ProjectsSection: React.FC = () => {
                   {current.subtitle}
                 </p>
 
-                {current.url && (
+                {current.internalUrl ? (
+                  <Link
+                    href={current.internalUrl}
+                    className="mt-6 inline-flex items-center gap-3 rounded-full bg-[#0943c2] px-5 py-3 text-sm font-medium text-white no-underline transition-all duration-300 hover:bg-[#08369b] hover:shadow-lg"
+                  >
+                    Explore product <span aria-hidden="true">→</span>
+                  </Link>
+                ) : current.url ? (
                   <a
                     href={current.url}
                     target="_blank"
@@ -132,7 +139,7 @@ export const ProjectsSection: React.FC = () => {
                   >
                     Visit website <span aria-hidden="true">↗</span>
                   </a>
-                )}
+                ) : null}
               </div>
             </div>
           </div>
@@ -175,7 +182,14 @@ export const ProjectsSection: React.FC = () => {
                 <p className="mt-2 flex-1 text-sm text-[#6d6a61]">
                   {project.subtitle}
                 </p>
-                {project.url && (
+                {project.internalUrl ? (
+                  <Link
+                    href={project.internalUrl}
+                    className="arrow-link mt-5 font-semibold text-[#0943c2]"
+                  >
+                    Explore product <span className="arr">→</span>
+                  </Link>
+                ) : project.url ? (
                   <a
                     href={project.url}
                     target="_blank"
@@ -184,7 +198,7 @@ export const ProjectsSection: React.FC = () => {
                   >
                     Visit website <span className="arr">↗</span>
                   </a>
-                )}
+                ) : null}
               </div>
             </article>
           ))}

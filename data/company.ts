@@ -18,9 +18,9 @@ export const companyConfig = {
     mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.285816921203!2d85.3218824761895!3d27.706363625442533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb192d0e99083b%3A0x85beb64de143e174!2sSV%20Technologies%20Pvt%20Ltd!5e0!3m2!1sen!2snp!4v1710000000000!5m2!1sen!2snp",
   },
   social: {
-    facebook: "#",
+    facebook: "https://www.facebook.com/profile.php?id=61595380651920",
     linkedin: "#",
-    instagram: "#",
+    instagram: "https://www.instagram.com/svtechnologies.np/",
     github: "#",
   },
   metrics: [

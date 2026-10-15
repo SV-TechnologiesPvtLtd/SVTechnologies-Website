@@ -5,6 +5,8 @@ export interface Project {
   category: string;
   /** Live URL. Leave undefined for products without a public site. */
   url?: string;
+  /** Internal SPA route. Used for dedicated product pages. */
+  internalUrl?: string;
   /** Shown as the large dark card at the top of the grid. */
   featured?: boolean;
   imgUrl?: string;
@@ -18,6 +20,7 @@ export const projectsList: Project[] = [
       "Create invoices by simply chatting, with a complete invoice management system behind it.",
     category: "Product",
     featured: true,
+    internalUrl: "/product",
     imgUrl: "/projects/InvoiceStudio.png"
   },
   {

@@ -60,18 +60,24 @@ export const ContactSection: React.FC = () => {
             <div className="mt-9 flex gap-3 flex-wrap">
               <a
                 href={companyConfig.social.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="pill border border-[#f4f1ea]/25 bg-transparent text-[#f4f1ea] hover:bg-[#0943c2] hover:border-[#0943c2]"
               >
                 Facebook ↗
               </a>
               <a
                 href={companyConfig.social.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="pill border border-[#f4f1ea]/25 bg-transparent text-[#f4f1ea] hover:bg-[#0943c2] hover:border-[#0943c2]"
               >
                 LinkedIn ↗
               </a>
               <a
                 href={companyConfig.social.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="pill border border-[#f4f1ea]/25 bg-transparent text-[#f4f1ea] hover:bg-[#0943c2] hover:border-[#0943c2]"
               >
                 Instagram ↗
