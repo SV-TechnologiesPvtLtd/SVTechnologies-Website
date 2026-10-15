@@ -80,7 +80,7 @@ export default function InvoiceStudioPage() {
 
             <div className="grid lg:grid-cols-[1.1fr_0.9fr] items-center gap-12 lg:gap-14">
               <div>
-                <Eyebrow>AI-powered invoicing</Eyebrow>
+                <Eyebrow>Invoice Studio</Eyebrow>
                 <h1 className="text-[clamp(2.6rem,5.5vw,4.8rem)] font-semibold leading-[1.05] tracking-tight text-[#131311]">
                   Chat with it.{" "}<br/>
                   <span className="font-serif font-normal italic text-[#0943c2]">Invoice Ready!</span>
