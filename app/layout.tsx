@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import { JsonLd } from "@/components/shared/json-ld";
 
 export const metadata: Metadata = {
-  title: "SV Technologies — Based in Nepal. Building for the World.",
+  title: "SV Technologies — Building for the World.",
   description:
     "SV Technologies is a software company based in Dillibazar, Kathmandu. We design and build websites, mobile apps, POS systems, e-commerce stores, and custom software.",
   keywords: [
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://svtechnologies.com.np",
-    title: "SV Technologies — Based in Nepal. Building for the World.",
+    title: "SV Technologies — Building for the World.",
     description:
       "SV Technologies is a software company based in Dillibazar, Kathmandu. We design and build websites, mobile apps, POS systems, and custom software.",
     siteName: "SV Technologies Pvt. Ltd.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "SV Technologies — Based in Nepal. Building for the World.",
+    title: "SV Technologies — Building for the World.",
     description: "Software Company in Dillibazar, Kathmandu.",
   },
 };
