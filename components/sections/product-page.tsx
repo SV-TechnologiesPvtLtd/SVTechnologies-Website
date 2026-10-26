@@ -14,13 +14,6 @@ import { Footer } from "../shared/footer";
  *   gold  #f4c542   logo accent, used sparingly
  */
 
-const Mark = ({ className = "h-8 w-8" }: { className?: string }) => (
-  <svg viewBox="0 0 32 32" className={className} aria-hidden="true">
-    <path d="M7 3h13l6 6v16a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3Z" fill="#0d2a5c" stroke="#f4f1ea" strokeWidth="1.2" />
-    <path d="M7 23l6-6 4 4 7-8" fill="none" stroke="#f4c542" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>
-);
-
 const Eyebrow = ({ children }: { children: React.ReactNode }) => (
   <span className="mb-5 inline-flex items-center gap-3 text-xs font-medium uppercase tracking-[0.18em] text-[#131311]">
     <span className="h-px w-8 bg-[#0943c2]" />
@@ -146,7 +139,7 @@ export default function InvoiceStudioPage() {
             <Eyebrow>Features</Eyebrow>
             <h2 className="mb-12 max-w-2xl text-[clamp(2rem,4.5vw,3.6rem)] font-semibold leading-tight tracking-tight">
               Everything an invoice needs,{" "}
-              <span className="font-serif font-normal italic text-[#0943c2]">nothing it doesn't.</span>
+              <span className="font-serif font-normal italic text-[#0943c2]">nothing it doesnt.</span>
             </h2>
 
             <div className="flex flex-col">
@@ -250,7 +243,7 @@ export default function InvoiceStudioPage() {
               <span className="font-serif font-normal italic text-[#f4c542]">Start describing.</span>
             </h2>
             <p className="mx-auto mt-4 max-w-md text-white/75">
-              See Invoice Studio on your own invoices. We'll set up a demo for your team.
+              See Invoice Studio on your own invoices. We will set up a demo for your team.
             </p>
             <div className="mt-8 flex flex-wrap justify-center items-center gap-4">
               <a

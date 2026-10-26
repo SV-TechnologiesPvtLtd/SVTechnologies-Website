@@ -38,7 +38,7 @@ export const CareersSection: React.FC = () => {
         </div>
 
         <p className="mt-8 text-[#9a978d] text-sm">
-          Don't see your role? Send your CV anyway —{" "}
+          Dont see your role? Send your CV anyway —{" "}
           <a
             href={`mailto:${companyConfig.contact.careersEmail}`}
             className="text-[#0943c2] hover:underline"
