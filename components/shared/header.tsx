@@ -17,7 +17,7 @@ interface NavItem {
   isExternalRoute?: boolean;
 }
 
-export const Header: React.FC<HeaderProps> = ({ onOpenModal }) => {
+export const Header: React.FC<HeaderProps> = () => {
   const pathname = usePathname();
   const isHome = pathname === "/";
   const isProduct = pathname.startsWith("/product");
@@ -38,10 +38,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenModal }) => {
 
   // IntersectionObserver to highlight active section on the home page
   useEffect(() => {
-    if (!isHome) {
-      setActiveSection("");
-      return;
-    }
+    if (!isHome) return;
 
     const sectionIds = ["services", "work", "gallery", "team", "contact"];
     const observers: IntersectionObserver[] = [];

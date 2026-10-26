@@ -3,18 +3,13 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { companyConfig } from "@/data/company";
 import { Button } from "@/components/ui/button";
 import {
   Menu,
   X,
   ChevronDown,
-  Cpu,
-  Layers,
   ArrowRight,
-  Sparkles,
   PhoneCall,
-  CheckCircle2,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
